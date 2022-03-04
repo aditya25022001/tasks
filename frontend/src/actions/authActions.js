@@ -1,7 +1,7 @@
 import { USER_REGISTER_REQUEST, USER_REGISTER_SUCCESS, USER_REGISTER_FAIL, USER_LOGIN_REQUEST, USER_LOGIN_SUCCESS, USER_LOGIN_FAIL, USER_LOGOUT } from '../constants/authConstants'
 import axios from 'axios'
 
-const apiBaseURL = "http://10.200.150.191:5000"
+const apiBaseURL = "https://internship-tasks.herokuapp.com"
 
 export const userRegisterAction = (name, email, password, cityType) => async(dispatch) => {
     try {

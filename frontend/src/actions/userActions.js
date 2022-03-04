@@ -1,7 +1,7 @@
 import { GET_TAX_INC_SUCCESS, GET_TAX_INC_REQUEST, GET_TAX_INC_FAIL } from '../constants/userConstants'
 import axios from 'axios'
 
-const apiBaseURL = "http://10.200.150.191:5000"
+const apiBaseURL = "https://internship-tasks.herokuapp.com"
 
 export const getTaxIncAction = (Bas, LTA, HRA, FA, Inv, Rent, CityType, Med) => async(dispatch, getState) => {
     try {
