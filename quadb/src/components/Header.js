@@ -24,7 +24,7 @@ export const Header = () => {
                     </Link>
                 </Nav>
                 <Nav className={typeof window!==undefined && window.innerWidth>992 ? 'mr-2' : 'pt-1'}>
-                    <a className='header_link' href='https://github.com/aditya25022001/tasks' target='_blank' rel='noopener noreferrer'>
+                    <a className='header_link' href='https://github.com/aditya25022001/tasks/tree/master/quadb' target='_blank' rel='noopener noreferrer'>
                         Source {"</>"}
                     </a>
                 </Nav>
