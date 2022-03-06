@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const apiBaseURL = "https://internship-tasks.herokuapp.com"
 
-export const userRegisterAction = (name, email, password, cityType) => async(dispatch) => {
+export const userRegisterAction = (name, email, password) => async(dispatch) => {
     try {
         dispatch({
             type:USER_REGISTER_REQUEST
@@ -13,7 +13,7 @@ export const userRegisterAction = (name, email, password, cityType) => async(dis
                 'Content-Type': 'application/json'
             }
         }
-        const { data } = await axios.post(`${apiBaseURL}/api/auth/register`,{ name, email, password, cityType },config)
+        const { data } = await axios.post(`${apiBaseURL}/api/auth/register`,{ name, email, password },config)
         dispatch({
             type:USER_REGISTER_SUCCESS,
             payload: data

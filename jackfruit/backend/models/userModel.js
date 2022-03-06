@@ -48,7 +48,7 @@ const userSchema = mongoose.Schema({
     CityType:{
         type:String,
         required:true,
-        default:""
+        default:"metro"
     },
     Med:{
         type:Number,
