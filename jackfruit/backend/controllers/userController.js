@@ -2,7 +2,12 @@ import User from '../models/userModel.js';
 import asyncHandler from 'express-async-handler'
 
 export const updateCredAndReturnTaxIncome = asyncHandler(async (req,res) => {
-    const { Bas, LTA, HRA, FA, Inv, Rent, CityType, Med  } = req.body
+    let { Bas, LTA, HRA, FA, Inv, Rent, CityType, Med  } = req.body
+    Bas*=12
+    LTA*=12
+    HRA*=12
+    FA*=12
+    Rent*=12
     const user = await User.findById({ _id:req.user._id })
     if(user){
         let AppHRA = 0
