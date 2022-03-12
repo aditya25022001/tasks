@@ -1,0 +1,48 @@
+body,.MuiPaper-root,.MuiTypography-root,.MuiDialogContent-root{
+    background-color: rgb(41, 41, 41);
+    color:rgb(202, 202, 202);
+}
+@media screen and (min-width: 500px) {
+    *::-webkit-scrollbar{
+        width:7px;
+        height:5px;
+    }
+    *::-webkit-scrollbar-thumb{
+        width:7px;
+        border-radius:150px;
+        background-color: rgb(85, 85, 85);
+    }
+}
+strong{
+    font-weight:400;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.MuiSelect-nativeInput, .MuiSelect-select, .MuiSelect-outlined, .MuiOutlinedInput-input{
+    background-color:rgb(41, 41, 41) !important;
+    color:rgb(255, 255, 255) !important;
+}
+.form-control{
+    background-color:rgb(41, 41, 41) !important;
+    color:rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid rgb(61, 61, 61) !important;
+}
+.form-control:active, .form-control:focus{
+    background-color:rgb(41, 41, 41) !important;
+    color:rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid rgb(87, 87, 87) !important;
+}
+.task{
+    border:1px solid rgb(61, 61, 61);
+}
+.success>.MuiAlert-message, .success>.MuiAlert-icon, .success>div>.MuiSvgIcon-root{
+    background-color:rgb(46,125,50) !important;
+}
+.error>.MuiAlert-message, .error>.MuiAlert-icon, .error>div>.MuiSvgIcon-root{
+    background-color:rgb(211,47,47) !important;
+}
