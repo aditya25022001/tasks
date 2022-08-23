@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site":"pepcorns-aditya-task",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
