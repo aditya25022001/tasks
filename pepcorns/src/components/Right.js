@@ -3,9 +3,9 @@ import { Button, Card, Divider } from '@mui/material'
 
 export const Right = () => {
   return (
-    <div style={{ width:'50%' }}>
+    <div className='right'>
         <div>
-            <Card className='pb-2'>
+            <Card className='pb-2 border'>
                 <div className='p-4'>
                     <h1 style={{ color:'var(--genBack)' }}>{String.fromCharCode(8377)}{" "}0</h1>
                     <div>0 % of minimum goal raised</div>
@@ -30,7 +30,7 @@ export const Right = () => {
         <div className='mt-5'>
             <h3 className='mb-3'>Deal Terms</h3>
             <div className='mb-3' style={{ fontSize:12 }}>Perks you will receive for Investing Letzrent</div>
-            <Card>
+            <Card className='border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}2000</h1>
                     <div className='mb-4'>Invest</div>
@@ -39,7 +39,7 @@ export const Right = () => {
                     <Button variant="contained" disabled style={{ backgroundColor:'var(--genBack)', color:'white', width:'100%', opacity:'0.6' }} className='mt-4'>Invest</Button>
                 </div>
             </Card>
-            <Card className='mt-5'>
+            <Card className='mt-5 border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}5000</h1>
                     <div className='mb-4'>Invest</div>
@@ -48,7 +48,7 @@ export const Right = () => {
                     <Button variant="contained" disabled style={{ backgroundColor:'var(--genBack)', color:'white', width:'100%', opacity:'0.6' }} className='mt-4'>Invest</Button>
                 </div>
             </Card>
-            <Card className='mt-5'>
+            <Card className='mt-5 border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}10000</h1>
                     <div className='mb-4'>Invest</div>
@@ -57,7 +57,7 @@ export const Right = () => {
                     <Button variant="contained" disabled style={{ backgroundColor:'var(--genBack)', color:'white', width:'100%', opacity:'0.6' }} className='mt-4'>Invest</Button>
                 </div>
             </Card>
-            <Card className='mt-5'>
+            <Card className='mt-5 border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}25000</h1>
                     <div className='mb-4'>Invest</div>
@@ -66,7 +66,7 @@ export const Right = () => {
                     <Button variant="contained" disabled style={{ backgroundColor:'var(--genBack)', color:'white', width:'100%', opacity:'0.6' }} className='mt-4'>Invest</Button>
                 </div>
             </Card>
-            <Card className='mt-5'>
+            <Card className='mt-5 border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}50000</h1>
                     <div className='mb-4'>Invest</div>
@@ -75,7 +75,7 @@ export const Right = () => {
                     <Button variant="contained" disabled style={{ backgroundColor:'var(--genBack)', color:'white', width:'100%', opacity:'0.6' }} className='mt-4'>Invest</Button>
                 </div>
             </Card>
-            <Card className='mt-5'>
+            <Card className='mt-5 border'>
                 <div className='p-4' style={{ color:'#525f7f' }}>
                     <h1 >{String.fromCharCode(8377)}{" "}100000</h1>
                     <div className='mb-4'>Invest</div>

@@ -13,7 +13,7 @@ function App() {
       <Container>
         <CTAs/>
         <Profile/>
-        <div style={{ display:'flex' }} className='mt-5'>
+        <div style={{ display:'flex' }} className='mt-5 leftright'>
           <Left style={{ flex:0.65 }}/>
           <Right style={{ flex:0.3 }}/>
         </div>
