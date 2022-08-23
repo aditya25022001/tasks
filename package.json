@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "pepcorns":"cd pepcorns | npm start",
+        "sa":"cd sa | npm start"
+    }
+}
